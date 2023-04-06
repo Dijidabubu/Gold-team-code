@@ -34,4 +34,4 @@ assert users == ['kevin', 'melody', 'alice', 'andy', 'wanda', 'jim'], f"Expected
 # 7) Slice the users lists to return the 3rd and 4th items and assign the result to `center_users`
 center_users = users[2:4]
 
-assert center_users == ['alice', 'andy'], f"Expected `users` to be ['alice', 'andy'] but got: {repr(center_users)}
+assert center_users == ['alice', 'andy'], f"Expected `users` to be ['alice', 'andy'] but got: {repr(center_users)}git psu
