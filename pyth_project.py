@@ -25,4 +25,4 @@ for file_name in os.listdir(current_dir):
 
 
 
-print(dict_list, sep="\n ")
+print(dict_list, sep="\n")
