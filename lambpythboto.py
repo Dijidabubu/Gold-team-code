@@ -13,4 +13,4 @@ response = sqs.create_queue(
 
 #confirmation
 print('SQS Q created')
-print(response)
+print(response)#print response

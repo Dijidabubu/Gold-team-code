@@ -15,7 +15,7 @@ queue_url = 'https://sqs.us-east-2.amazonaws.com/597503565311/lambdaq'
 def lambda_handler(event, context):
     current_time = datetime.now().strftime("%H:%M:%S")
     
-    response = sqs.send_message(QueueUrl=queue_url, MessageBody=current_time)
+    response = sqs.send_message(QueueUrl=queue_url, MessageBody=current_time)#send msg
     
     return {
         'statusCode': 200,
