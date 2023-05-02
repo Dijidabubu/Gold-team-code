@@ -1,0 +1,14 @@
+version: "3"
+services:
+  databases:
+    image: mariadb
+    ports:
+    - "3306:3306"
+    environment:
+    - MARIADB_ROOT_PASSWORD=yes
+    - MARIADB_USER=user
+    - MARIADB_PASSWORD=yes
+    - MARIADB_DATABASE=demodb
+  web:
+    image: nginx
+#save
